@@ -1,0 +1,25 @@
+@font-face {
+    font-family: amar_lipi;
+    src: url(/AmrLipiHeavy.ttf);
+}
+@font-face {
+    font-family: lipi;
+    src: url(/iAkhar.ttf);
+}
+body{
+    background-color: #121313;
+    color: #798CFE;
+    font-family: amar_lipi;
+}
+h1,h2,h3{
+    text-align: center;
+}
+h2{
+    color: #556eff;
+}
+h3{
+    color: #97A58F;
+}
+.title{
+    font-size: 35px;
+}
