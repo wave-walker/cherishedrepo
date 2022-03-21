@@ -14,7 +14,7 @@ body{
 h1,h2,h3{
     text-align: center;
 }
-h2{
+h1.strt, h2{
     color: #556eff;
 }
 h3{
