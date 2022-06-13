@@ -34,7 +34,28 @@ body{
 h1, h2{
     color: var(--primary-blue);
 }
-
+.text-blue{
+    color: var(--primary-blue); 
+    font-size: 25px;
+    
+}
 .title{
     font-size: 35px;
+}
+.border-bottom{
+    border-bottom: var(--para-gray) solid 1px;
+}
+
+a{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 't';
+    background: transparent;
+    border: solid 2px var(--primary-blue);
+    color: var(--primary-blue);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
 }
