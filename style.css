@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'mb';
+    src: url(/fonts/MuktaMahee-Bold.ttf);
+}
+@font-face {
+    font-family: 'mm';
+    src: url(/fonts/MuktaMahee-Medium.ttf)
+}
+@font-face {
+    font-family: 'msb';
+    src: url(/fonts/MuktaMahee-SemiBold.ttf);
+}
+@font-face {
+    font-family: 't';
+    src: url(/fonts/TiroGurmukhi-Regular.ttf);
+}
+
+:root {
+    --bg-dark: #040c15;
+    --primary-blue: #3b82f6;
+    --para-gray: #cbd5e1;
+}
+*{
+    font-family: 't';
+    text-align: center;
+    letter-spacing: 0.5px;
+    line-height: 155%;
+}
+body{
+    background-color: #111827;
+    color: var(--para-gray);
+}
+
+h1, h2{
+    color: var(--primary-blue);
+}
+
+.title{
+    font-size: 35px;
+}
