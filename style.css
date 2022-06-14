@@ -42,10 +42,10 @@ h1, h2{
 .title{
     font-size: 35px;
 }
-.border-bottom{
-    border-bottom: var(--para-gray) solid 1px;
+.img-ਮੰਗਲ{
+    width: 95vw;
+    height: 50vh;
 }
-
 a{
     text-decoration: none;
     padding: 10px 20px;
